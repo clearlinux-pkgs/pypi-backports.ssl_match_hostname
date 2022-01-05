@@ -6,7 +6,7 @@
 #
 Name     : pypi-backports.ssl_match_hostname
 Version  : 3.7.0.1
-Release  : 60
+Release  : 61
 URL      : https://files.pythonhosted.org/packages/ff/2b/8265224812912bc5b7a607c44bf7b027554e1b9775e9ee0de8032e3de4b2/backports.ssl_match_hostname-3.7.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ff/2b/8265224812912bc5b7a607c44bf7b027554e1b9775e9ee0de8032e3de4b2/backports.ssl_match_hostname-3.7.0.1.tar.gz
 Source1  : https://files.pythonhosted.org/packages/ff/2b/8265224812912bc5b7a607c44bf7b027554e1b9775e9ee0de8032e3de4b2/backports.ssl_match_hostname-3.7.0.1.tar.gz.asc
@@ -17,6 +17,7 @@ Requires: pypi-backports.ssl_match_hostname-license = %{version}-%{release}
 Requires: pypi-backports.ssl_match_hostname-python = %{version}-%{release}
 Requires: pypi-backports.ssl_match_hostname-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+Provides: backports.ssl_match_hostname
 
 %description
 The ssl.match_hostname() function from Python 3.7
